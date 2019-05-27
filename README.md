@@ -17,3 +17,41 @@
   * includes over 60 graph kernel benchmark datasets
   * point clouds to a graph by generating a nearest neighbor graph
     * _any better way than using nearest neighbors to construct a graph from a point cloud?_
+    
+## Sulam
+* ```x = D \cdot y```
+  * ```x```: data
+  * ```D```: pre-built dictionary of reps
+  * ```y```: sparse representation
+  
+## Pollefeys
+* Energy-based 3d semantic segmantation
+
+## Jalali
+* high-throughput, low-latency opto-electric system to classify cells in blood (cytometry) and detect surface proteins of cancer cells by scattering laser
+* time-strech microscopy
+
+## Goldstein
+* data poisoining
+* in a high-dimensional space, \epsilon-enighborhood can be very large
+* instead of using ImageNet for a high-dim input, use enlarged MNIST.
+* _how an adversarial training changes a classifier?_
+  * _enforce disentanglement?_
+* https://arxiv.org/abs/1809.02104
+* build "I don't know" class to avoid this problem.
+
+## Zhang
+* cross-entropy decision boundary has poor margin, compared to SVM.
+
+## Lederman
+* reconstruct a molecule from various 2d projections (or crosssections)
+* has a good forward model.
+
+## Bresson
+* graph auto-encoder
+  * encoding is easy; decoding is more challenging.
+  * graph to vector to graph
+    * _using a vector to represent a graph is a step forward from a single scalar statistic, but maybe a concatenation of scalars are of the same or better capacity?_
+* Information, Computation, Optimization: Connecting the Dots in the Traveling Salesman Problem
+  * https://www.youtube.com/watch?v=q8nQTNvCrjE
+* Operational research
