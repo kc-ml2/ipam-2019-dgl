@@ -64,3 +64,17 @@ _emphasized parts_ are Chan's comments.
   * pretrain using pseudotask, which is a self-supervied part, then do transfer learning with actual labeled dataset.
 * distillation from one network to another with a different architecture.
   * _if we can transfer from human-engineered features, treating them as a black box, to a neural network, can we do the oppoisite to "extract knowledge" from a neural network?_
+  
+## Tang
+* GMNN, ICML 2019
+* semi-supervised node classification / label vector prediction
+  * -> consider this as statistical relational learning.
+* cons of statistical relational learning
+  * designing potential function for a graphical model
+  * difficult inference for complicated graph
+* cons of GNN
+  * ignore dependencies between nodes
+* ![2019-05-22 09.26.28](photos/2019-05-22%2009.26.28.jpg)
+* optimization with pseudo likelihood variational EM
+* use GNN to approximate ```q_\theta``` and ```p_\phi```
+* marginal improvement on classiciation accuracy
