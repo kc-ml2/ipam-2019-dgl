@@ -97,3 +97,64 @@ _emphasized parts_ are Chan's comments.
 * ModGraph
 * Neural relational inference
 * _VAE vs variational EM?_
+
+## Leskovec
+* same as ICLR workshop
+
+## Niepert
+* fingerprint id -> graph matching
+* various medical applications
+* real-world graphs are noisy, induced with heuristics (kNN)
+* for end-to-end training, instead of building a kNN graph, use a differentiable graph generator ```P_\theta``` and sample from it.
+* LDS (learning discrete structure), ICML 2019
+  * for the data without explicit graph structure
+* _improve graph-building heuristics with a neural graph generator_
+* _fuzzy topology and fuzzy graphs?_
+* stochastic block model
+
+## Monti
+* spectral GCN -> make sense for stationary sensor networks
+* mixture model NN
+* matrix completion
+* neutrino physics
+* fake news detection
+  * https://arxiv.org/abs/1902.06673
+  
+## Belkin
+* double-U train error: double descent curve
+  * ![2019-05-23 09.31.15](photos/2019-05-23%2009.31.15.jpg)
+  * _maybe only for small datasets?_
+  * not applicable to deep nets
+    * _then what's the point?_
+  * kernel machine as an infinite width neural network
+  * interpolation threshold
+    * ```(# params) = (# data) \times (# classes)```
+
+## Serra
+* piecewise linear activation -> piecewise linear DNN
+* # linear regions may be related to the capacity of NN
+
+## Vidal
+* theoretical results on optimization
+* dropout is SGD on a stochstic objective (=stochastic matrix factorization)
+  * dropout as an explicit regularizer for SMF
+* nuclear norm (low rank regulerizer)
+* _no consideration of any nonlinearity_
+  * but says it works even if there is nonlinearity.
+  
+## Osher
+* mass transport without conservation
+  * image completion
+* unnormalized optimal transport
+
+## Ramalingam
+* two equivalent piecewise linear networks
+* model compression by pruning layers on ResNet
+
+## Van Gool
+* Velodyne HDL-64E: USD 75,000
+* Velodyne VLP-16: USD 4,000
+* LIDAR low-res & high cost
+* cam based
+  * supervised S.O.A: 3+ meters
+  * unsupervised S.O.A: 4+ meters
