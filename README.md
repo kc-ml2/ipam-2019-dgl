@@ -1,4 +1,5 @@
 # 2019 Deep geometric learning workshop @ IPAM, UCLA
+_emphasized parts_ are Chan's comments.
 
 ## Links
 * http://www.ipam.ucla.edu/programs/workshops/workshop-iv-deep-geometric-learning-of-big-data-and-applications
@@ -8,6 +9,7 @@
 * script + ML -> pure ML for Mincraft bots
 * ML _components_
 * neural _semantic parser_
+  * ![2019-05-20 09.49.07](photos/2019-05-20%2009.49.07.jpg)
   * natural language -> programmning language
   * SentenceRec by Dong & Lapata, 2016
 
@@ -55,3 +57,10 @@
 * Information, Computation, Optimization: Connecting the Dots in the Traveling Salesman Problem
   * https://www.youtube.com/watch?v=q8nQTNvCrjE
 * Operational research
+
+## Pirsiavash
+* Self-supervised
+  * _generate_ annotations
+  * pretrain using pseudotask, which is a self-supervied part, then do transfer learning with actual labeled dataset.
+* distillation from one network to another with a different architecture.
+  * _if we can transfer from human-engineered features, treating them as a black box, to a neural network, can we do the oppoisite to "extract knowledge" from a neural network?_
