@@ -132,7 +132,7 @@ _emphasized parts_ are Chan's comments.
 
 ## Serra
 * piecewise linear activation -> piecewise linear DNN
-* # linear regions may be related to the capacity of NN
+* number of linear regions may be related to the capacity of NN
 
 ## Vidal
 * theoretical results on optimization
