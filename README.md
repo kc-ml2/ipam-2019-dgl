@@ -158,3 +158,28 @@ _emphasized parts_ are Chan's comments.
 * cam based
   * supervised S.O.A: 3+ meters
   * unsupervised S.O.A: 4+ meters
+* ![2019-05-23 16.37.01](photos/2019-05-23%2016.37.01.jpg)
+
+## Cohen
+* CNN to arbitrary manifold without coordinate system
+* application to meshes
+* _seems that they gave up using global symmetry of a sphere, rather they used an icosahedron as counter example or an approximation._
+* _need to define a convolutional filter as a "real tensor" over a manifold, not a tensor in DL sense._
+  * _one way to avoid the complication is using a scalar._
+* _omnidirectional image is basically scalar signals on a sphere. why use kernels living on a tangent space?_
+  * _maybe "climate data" means sensor data at each point._
+* _gave up global consistency, only at overlap, that's why they say "gauage." But...does it make any sense???_
+
+## Daniilidis
+* equivariance matters, for example, segmentation for omnidirectional images.
+* steerability? (of filters?)
+  * term used in computer vision community
+  * _maybe can learn something about applying Lie group to ML._
+  * _mathematical feature engineering?_
+    * _using Lie generators to find linearly indepedent filters?_
+    
+## Yumer
+* 3d face reconstruction
+* editing by disentangled latent space traversal
+* human pose prediction / tracking
+
