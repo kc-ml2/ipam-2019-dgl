@@ -78,3 +78,22 @@ _emphasized parts_ are Chan's comments.
 * optimization with pseudo likelihood variational EM
 * use GNN to approximate ```q_\theta``` and ```p_\phi```
 * marginal improvement on classiciation accuracy
+
+## Kipf
+* GCN pros and cons
+  * ![2019-05-22 10.19.11](photos/2019-05-22%2010.19.11.jpg)
+* MoNet, Relational GCN
+* Graph Attention Networks
+  * learned adjacency matrix
+* neural message passing : e -> v, v -> e
+  * higher space & time complexity compared to GCN
+* node classification, graph classification, link prediction
+* unsupervised learning with GNN
+  * ![2019-05-22 10.27.43](photos/2019-05-22%2010.27.43.jpg)
+  * embedding -> positive / negative sampling -> loss
+  * ![2019-05-22 10.29.19-1](photos/2019-05-22%2010.29.19-1.jpg)
+  * ![2019-05-22 10.33.00](photos/2019-05-22%2010.33.00.jpg)
+  * ![2019-05-22 10.34.49-1](photos/2019-05-22%2010.34.49-1.jpg)
+* ModGraph
+* Neural relational inference
+* _VAE vs variational EM?_
